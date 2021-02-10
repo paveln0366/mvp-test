@@ -1,4 +1,4 @@
-package com.example.testemployees.screens.employees;
+package com.example.mvp_test.screens.employees;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -7,21 +7,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.example.testemployees.R;
-import com.example.testemployees.adapters.EmployeeAdapter;
-import com.example.testemployees.api.ApiFactory;
-import com.example.testemployees.api.ApiService;
-import com.example.testemployees.pojo.Employee;
-import com.example.testemployees.pojo.EmployeeResponse;
+import com.example.mvp_test.R;
+import com.example.mvp_test.adapters.EmployeeAdapter;
+import com.example.mvp_test.pojo.Employee;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.disposables.CompositeDisposable;
-import io.reactivex.disposables.Disposable;
-import io.reactivex.functions.Consumer;
-import io.reactivex.schedulers.Schedulers;
 
 public class EmployeeListActivity extends AppCompatActivity implements EmployeesListView {
     private RecyclerView recyclerViewEmployees;

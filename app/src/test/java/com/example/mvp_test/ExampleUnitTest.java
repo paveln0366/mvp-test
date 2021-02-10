@@ -1,4 +1,4 @@
-package com.example.testemployees;
+package com.example.mvp_test;
 
 import org.junit.Test;
 

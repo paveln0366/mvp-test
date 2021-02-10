@@ -1,10 +1,8 @@
-package com.example.testemployees.screens.employees;
+package com.example.mvp_test.screens.employees;
 
-import android.widget.Toast;
-
-import com.example.testemployees.api.ApiFactory;
-import com.example.testemployees.api.ApiService;
-import com.example.testemployees.pojo.EmployeeResponse;
+import com.example.mvp_test.api.ApiFactory;
+import com.example.mvp_test.api.ApiService;
+import com.example.mvp_test.pojo.EmployeeResponse;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;

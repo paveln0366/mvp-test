@@ -1,6 +1,6 @@
-package com.example.testemployees.api;
+package com.example.mvp_test.api;
 
-import com.example.testemployees.pojo.EmployeeResponse;
+import com.example.mvp_test.pojo.EmployeeResponse;
 
 import io.reactivex.Observable;
 import retrofit2.http.GET;

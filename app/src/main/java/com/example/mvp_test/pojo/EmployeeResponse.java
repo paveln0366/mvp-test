@@ -1,4 +1,4 @@
-package com.example.testemployees.pojo;
+package com.example.mvp_test.pojo;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

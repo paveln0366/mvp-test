@@ -1,6 +1,6 @@
-package com.example.testemployees.screens.employees;
+package com.example.mvp_test.screens.employees;
 
-import com.example.testemployees.pojo.Employee;
+import com.example.mvp_test.pojo.Employee;
 
 import java.util.List;
 
